@@ -1,0 +1,24 @@
+{
+  "name": "web3skeb-1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foundry:install": "pnpm --filter=@web3skeb-1/foundry run foundry_install",
+    "forge:init": "pnpm --filter=@web3skeb-1/foundry run forge_init",
+    "forge:build": "pnpm --filter=@web3skeb-1/foundry run build",
+    "forge:create": "pnpm --filter=@web3skeb-1/foundry run create",
+    "forge:test": "pnpm --filter=@web3skeb-1/foundry run test",
+    "anvil": "pnpm --filter=@web3skeb-1/foundry run anvil",
+    "db:init": "pnpm --filter=@web3skeb-1/sveltekit run db:init",
+    "dev": "pnpm --filter=@web3skeb-1/sveltekit run dev"
+  },
+  "dependencies": {
+    "@web3skeb-1/out": "file:./packages/foundry/out",
+    "ethers": "^6.7.1"
+  },
+	"keywords": ["web3", "sveltekit", "foundry", "pnpm", "workspaces", "mono repo"],
+  "author": "Beddhu Murali",
+  "license": "BSD 3-Clause License"
+}

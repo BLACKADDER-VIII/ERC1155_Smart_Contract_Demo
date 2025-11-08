@@ -1,0 +1,2 @@
+#to make changes to schemas effective
+npx prisma migrate dev --name init

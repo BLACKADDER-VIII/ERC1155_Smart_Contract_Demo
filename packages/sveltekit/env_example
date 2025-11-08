@@ -1,0 +1,11 @@
+# blockchain
+CONTRACT_URL='http://127.0.0.1:8545'
+CONTRACT_ADDRESS='0x5FbDB2315678afecb367f032d93F642f64180aa3'
+
+# Prisma
+DATABASE_URL="file:./dev.sqlite"
+
+# Stripe
+PUBLIC_STRIPE_KEY="pk_test_1234"
+SECRET_STRIPE_KEY="sk_test_1234"
+STRIPE_WEBHOOK_SECRET="we_1234"
